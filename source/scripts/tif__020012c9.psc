@@ -7,6 +7,7 @@ Function Fragment_1(ObjectReference akSpeakerRef)
 Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
 Game.GetPlayer().AddItem(KeyProperty)
+Game.GetPlayer().AddToFaction(ArgonianAssemblageFaction)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -15,4 +16,4 @@ EndFunction
 
 Key Property KeyProperty  Auto  
 
-Faction Property ArgonianAssemblageFaction  Auto  
+Faction Property ArgonianAssemblageFaction  Auto
